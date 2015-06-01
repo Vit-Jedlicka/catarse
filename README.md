@@ -52,6 +52,14 @@ To run this project you need to have:
 
         $ rake db:create db:migrate db:seed
 
+* Setup Paypal Express configuration
+
+In Rails console, run this:
+
+        Configuration.create!(name: "paypal_username", value: "USERNAME")
+        Configuration.create!(name: "paypal_password", value: "PASSWORD")
+        Configuration.create!(name: "paypal_signature", value: "SIGNATURE")
+
 If everything goes OK, you can now run the project!
 
 ### Running the project

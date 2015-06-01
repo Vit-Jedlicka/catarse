@@ -39,6 +39,7 @@ gem 'mixpanel_client'
 gem 'catarse_moip', '~> 3.2.0'
 gem 'catarse_pagarme', '2.6.8'
 #gem 'catarse_pagarme', path: '../catarse_pagarme'
+gem 'catarse_paypal_express'
 
 # Decorators
 gem 'draper'
