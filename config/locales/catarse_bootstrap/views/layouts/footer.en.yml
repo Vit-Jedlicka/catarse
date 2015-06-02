@@ -5,21 +5,21 @@ en:
       links:
         jobs: Work with us
         blog: Blog
-        contact: contact
+        contact: Contact
         discover: Discover campaigns
         start: How it works
         expiring: In the final stretch
         facebook: Facebook
-        faq: help
+        faq: Help
         guides: Guide of Directors
         feedback: Feedback
         github: Github
         instagram: Instagram
         near: Near Me
-        press: press
+        press: Press
         privacy: Privacy Policy
-        recents: recent
-        recommended: recommended
+        recents: Recent
+        recommended: Recommended
         submit: Submit your campaign
         terms: Terms of use
         twitter: Twitter
@@ -30,4 +30,5 @@ en:
         contact: You welcome
         newsletter: Subscribe to our news
         sitemap: Browse
-        social: social networks
+        social: Social networks
+
