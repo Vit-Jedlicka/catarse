@@ -39,7 +39,7 @@ gem 'mixpanel_client'
 gem 'catarse_moip', '~> 3.2.0'
 gem 'catarse_pagarme', '2.6.8'
 #gem 'catarse_pagarme', path: '../catarse_pagarme'
-gem 'catarse_paypal_express', :git => "git://github.com/catarse/catarse_paypal_express"
+gem 'catarse_paypal_express', :git => "git://github.com/liberland/catarse_paypal_express"
 gem 'activemerchant', '1.44.1'
 
 # Decorators
