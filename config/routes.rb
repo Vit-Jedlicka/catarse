@@ -23,6 +23,7 @@ Catarse::Application.routes.draw do
   mount CatarseApi::Engine => "/api", as: :catarse_api
  #mount CatarseWepay::Engine => "/", as: :catarse_wepay
   mount Dbhero::Engine => "/dbhero", as: :dbhero
+  mount CatarsePaypalExpress::Engine => "/", :as => "catarse_paypal_express"
 
   get '/post_preview' => 'post_preview#show', as: :post_preview
   resources :categories, only: [] do
