@@ -1,0 +1,49 @@
+---
+en:
+  projects:
+    index_header:
+      subtitle: Start supporting our projects
+      title: Start supporting our projects
+    index:
+      back_a_project: "Invest"
+      banner_title: Take paper designs !
+      see_all: View all
+      near_you: Near you
+      recents: recent
+      blog: Blog ProduceRun
+      expiring: In the final stretch
+      recommended: recommended
+      banner_subtitle: Music, comics , cinema, social impact , technology and more.
+      box:
+        by: by
+        when: in
+      banner: Check out the search
+      explore: Explore campaigns
+      links:
+        channels: Discover the Canal Wings
+        recommended: Discover campaigns recommended
+        expiring: Discover campaigns down the stretch
+        recents: Discover recent campaigns
+        near: Discover campaigns near you
+      sidebar:
+        titles:
+          blog: blog
+          facebook: already likes our face ?
+          newsletter: Subscribe to our news
+          faq: "'re in doubt ?"
+          schedule: agenda
+        placeholders:
+          email: Enter your email address
+        buttons:
+          newsletter: send
+      sections:
+        near:
+          title: Near Me
+        recommended:
+          title: recommended
+        expiring:
+          title: In the final stretch
+        recents:
+          title: recent
+        channels:
+          title: Basic Canal
