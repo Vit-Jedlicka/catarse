@@ -1,6 +1,25 @@
 ---
 en:
   users:
+    profile:
+      user_since: "User since %{date}"
+      no_project_contribution: "No project contribution"
+      single_project_contribution: "Contributed to 1 project"
+      multiple_project_contribution: "Contributed to %{n_projects} projects"
+      single_project_created: " created 1 project"
+      multiple_project_created: " created %{n_projects} projects"
+    contribution_row:
+      contributed_projects: "Projects supported"
+      contribution_value: "Support value"
+      contribution_status: "Support status"
+      reward: Recompensa
+      no_reward: "You have not selected reward"
+      delivery_estimate: "Delivery estimate:"
+    card:
+      twitter_profile: "Twitter profile"
+      facebook_profile: "Facebook profile"
+      author_website: "Website"
+      contact_author: "Send message"
     failed_reactivation: The link reactivation is invalid , please contact our team.
     reactivated: Welcome back , your account has been reactivated.
     project:

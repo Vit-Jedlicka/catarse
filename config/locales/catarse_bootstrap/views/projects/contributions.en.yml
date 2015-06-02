@@ -20,6 +20,9 @@ en:
         reward: selected reward
         edit: edit
       edit:
+        review_title: 'Information about you'
+        review_subtitle: 'These data are reported to the project administrator'
+        delivery_address: 'Delivery address'
         payment_slip_disclaimer: If the campaign is not successful , we will refund
           your support.
         review_errors_title: Check the data reported
@@ -84,7 +87,7 @@ en:
         choose_reward: Pricing
         choose_value: Enter the amount of your support.
         minimum_disclaimer: From $ <span id="minimum-value">1</span> is great ;)
-        next_step: Review and make pagamento
+        next_step: Review and make payment
         no_reward: Cheque, Cash and EBT/SNAP. Please manage farmer
       review:
         PayPal: PayPal
