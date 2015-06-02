@@ -65,6 +65,8 @@ en:
       contact_author: Send Message
       contribute_project:
         display_status:
+          approved: This project has already been approved
+          online: You can support this project until %{date} 23h59h59
           reached_goal: This campaign will be successful and funded %{date}
           not_reached_goal: This campaign will only be funded if at least %{goal} are
             achieved by %{date}
@@ -77,7 +79,7 @@ en:
           waiting_funds: Awaiting confirmation slips to know if this campaign will
             be funded .
           draft: This design is just a draft and still can not receive support .
-        submit: Support this campaign
+        submit: Invest or Donate
       project_by: design by
       funding_period: Campaign period
       project_header:
@@ -85,14 +87,14 @@ en:
         without_city: A campaign
         with_city: A %{category_name} %{author} campaign by in %{city}
       menu:
-        about: about
+        about: About
         add_reward: Add reward
-        comments: reviews
-        contributions: supports
-        metrics: metrics
-        edit: edition
-        reports: reports
-        posts: news
+        comments: Reviews
+        contributions: Supports
+        metrics: Metrics
+        edit: Edition
+        reports: Reports
+        posts: News
       no_rewards_warning: Do not travel !
       no_rewards_warning_title: Create here your rewards
       contribution_states:
