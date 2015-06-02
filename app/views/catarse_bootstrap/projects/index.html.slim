@@ -38,7 +38,7 @@ section#projects
     .w-row
       == render_projects @recommends, 'home_recommended', { wrapper_class: 'w-col w-col-4' }
 
-  article.section.w-container
+  /article.section.w-container
     .w-row.u-marginbottom-30
       .w-col.w-col-10.w-col-small-6.w-col-tiny-6
         .fontsize-large.lineheight-looser
@@ -48,7 +48,7 @@ section#projects
     .w-row
       == render_projects @expiring, 'home_expiring', { wrapper_class: 'w-col w-col-4' }
 
-  article.section.recent-projects.w-container
+  /article.section.recent-projects.w-container
     .w-row.u-marginbottom-30
       .w-col.w-col-10.w-col-small-6.w-col-tiny-6
         .fontsize-large.lineheight-looser
@@ -58,7 +58,7 @@ section#projects
     .w-row
       == render_projects @recent, 'home_recent', { wrapper_class: 'w-col w-col-4' }
 
-section#blog.section-large.bg-gray.before-footer
+/section#blog.section-large.bg-gray.before-footer
   .w-container
     .u-text-center
       = link_to CatarseSettings[:blog_url], target: :blank do
