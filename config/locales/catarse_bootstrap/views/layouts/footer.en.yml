@@ -10,7 +10,7 @@ en:
         start: How it works
         expiring: In the final stretch
         facebook: Facebook
-        faq: Help
+        faq: FAQ
         guides: Guide of Directors
         feedback: Feedback
         github: Github
@@ -26,7 +26,7 @@ en:
       texts:
         copyleft: producerun.com
       titles:
-        about: help
+        about: Help
         contact: You welcome
         newsletter: Subscribe to our news
         sitemap: Browse
