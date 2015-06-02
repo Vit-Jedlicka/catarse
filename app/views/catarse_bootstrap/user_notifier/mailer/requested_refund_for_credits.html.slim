@@ -20,9 +20,9 @@ br/
 br/
 | Identificador no meio de pagamento: #{contribution.payment_id}
 br/
-| Valor do apoio: #{contribution.details.ordered.first.decorate.display_value} 
+| Valor do apoio: #{contribution.decorate.display_value} 
 br/
-| Meio de pagamento: #{contribution.gateway}
+| Meio de pagamento: #{contribution.payment_method}
 br/
 | Forma de pagamento: #{contribution.payment_choice}
 br/

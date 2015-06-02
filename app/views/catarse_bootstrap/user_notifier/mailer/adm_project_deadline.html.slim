@@ -1,25 +1,25 @@
 - project = @notification.project
 - bank_account = project.user.bank_account
-|O projeto #{link_to(project.name, project_by_slug_url(project.permalink))} acabou de atingir seu prazo.
+|O campaign #{link_to(project.name, project_by_slug_url(project.permalink))} just hit your deadline.
 br
 br
-| Nome do projeto: #{project.name}
+| Name of ProduceRun Campaign : #{project.name}
 br/
-| Valor arrecadado: #{project.display_pledged_with_cents}
+| Valor arrecadado: #{project.display_pledged}
 br/
-| Data de finalização: #{project.display_expires_at}
+| Date of expiring: #{project.display_expires_at}
 br/
-| Conta Moip: #{project.user.moip_login}
+| Payment Details: #{project.user.moip_login}
 br/
 br/
-'Dados Bancarios:'
+'Bank Data:'
 br/
-| Banco: #{bank_account.try(:name)}
+| Bank: #{bank_account.try(:name)}
 br/
-| Agência: #{bank_account.try(:agency)}- #{bank_account.try(:agency_digit)}
+| Agency: #{bank_account.try(:agency)}- #{bank_account.try(:agency_digit)}
 br/
-| Conta: #{bank_account.try(:account)} - #{bank_account.try(:account_digit)}
+| Account: #{bank_account.try(:account)} - #{bank_account.try(:account_digit)}
 br/
-| Nome do titular: #{bank_account.try(:user_name)}
+| Bank Account Name: #{bank_account.try(:user_name)}
 br/
-| CPF: #{bank_account.try(:user_document)}
+| Tax Number: #{bank_account.try(:user_document)}

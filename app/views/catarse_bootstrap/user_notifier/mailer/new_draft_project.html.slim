@@ -19,7 +19,9 @@ br/
 strong SOBRE O REALIZADOR
 br/
 br/
-| Nome: #{project.user.name}
+| Nome: #{project.user.full_name}
+br/
+| Apelido: #{project.user.name}
 br/
 | Email: #{project.user.email}
 br/
@@ -33,6 +35,8 @@ br/
 = project.user.facebook_link
 br/
 = project.user.decorate.twitter_link
+br/
+= project.user.other_link
 br/
 | Projetos Apoiados: #{project.user.total_contributed_projects}
 br/
