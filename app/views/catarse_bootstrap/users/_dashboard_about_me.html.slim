@@ -58,28 +58,21 @@
                   label.field-label.fontweight-semibold for="name-8"  Presence on the Internet
                   label.field-label.fontsize-smallest.fontcolor-secondary for="name-8"  Include links that will help other members get to know you better.&nbsp;
                 .w-col.w-col-7
-                  #links
-                    = form.simple_fields_for :links do |link_form|
+                  = form.simple_fields_for :links do |link_form|
                       = render partial: 'link_fields', locals: { f: link_form, parent_form: form }
+                  .w-row
+                    .w-col.w-col-6
+                    .w-col.w-col-6
+                      = link_to_add_association  t('users.edit.add_link'), form, :links, :'data-association-insertion-method' => :append, :'data-association-insertion-node' => '#links', class: 'btn btn-small btn-terciary'     
 
-                    = link_to_add_association " . ", form, :links, :'data-association-insertion-method' => :after, class: 'w-hidden user-links'
           .w-row
-            .w-col.w-col-8.w-sub-col
+            .w-col
               .card.card-terciary.u-marginbottom-30
                 label.field-label.fontweight-semibold for="name-8"  About
                 label.field-label.fontsize-smallest.fontcolor-secondary.u-marginbottom-20 for="field-6"  Talk about you and try to provide the most relevant information so that visitors can know you better. 
                 .w-form
                   .preview-container.u-marginbottom-40
-                    /.text-field.no-hover.top
-                      a.link-hidden.fa.fa-eye.fa-lg data-ix="display-preview" href="#" style=("transition: all 0.5s ease 0s; -webkit-transition: all 0.5s ease 0s;")  .
-                    /.preview data-ix="display-none-on-load" style=("display: none;") 
-                      .fontsize-large.fontweight-semibold.u-marginbottom-30 This is some text inside of a div block.
-                      p.fontsize-base Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
-                      img.u-marginbottom-20 alt="542d9f4baf9e5c4227c9dedd_XJsoL5s.jpg" src="http://uploads.webflow.com/54b440b85608e3f4389db387/542d9f4baf9e5c4227c9dedd_XJsoL5s.jpg"
-                      p.fontsize-base Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
-                      p.fontsize-base Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
-                      img.u-marginbottom-20 alt="542d9f4baf9e5c4227c9dedd_XJsoL5s.jpg" src="http://uploads.webflow.com/54b440b85608e3f4389db387/542d9f4baf9e5c4227c9dedd_XJsoL5s.jpg"
-                    = form.input_field :about, class: 'w-input text-field bottom jumbo positive'
+                    = form.input_field :about_html, class: 'redactor w-input text-field bottom jumbo positive'
             .w-col.w-col-4
               = render 'shared/formatting_tips'
 
