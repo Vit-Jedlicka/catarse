@@ -439,7 +439,7 @@ en:
           title: "Oohh yeah!"
         no_reward: "Thanks. I just want to help the project."
         submit: "Review and proceed to checkout"
-        title: "Contribution %{name}"
+        title: "Contribution"
       edit:
         brazil_address_title: 'Fill when you contribution is in Brazil'
         live_in_brazil: "If you live in Brazil, please check this box"

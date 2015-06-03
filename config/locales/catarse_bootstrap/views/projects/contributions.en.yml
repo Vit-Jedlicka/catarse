@@ -21,8 +21,9 @@ en:
         edit: edit
       edit:
         review_title: 'Information about you'
-        review_subtitle: 'These data are reported to the project administrator'
+        review_subtitle: 'These data are reported to the project owner'
         delivery_address: 'Delivery address'
+        next_step: 'Next step'
         payment_slip_disclaimer: If the campaign is not successful , we will refund
           your support.
         review_errors_title: Check the data reported
