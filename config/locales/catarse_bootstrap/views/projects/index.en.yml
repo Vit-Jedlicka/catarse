@@ -5,14 +5,14 @@ en:
       subtitle: Start supporting our projects
       title: Start supporting our projects
     index:
-      back_a_project: "Invest"
+      back_a_project: Invest or Donate
       banner_title: Take paper designs !
       see_all: View all
       near_you: Near you
-      recents: recent
+      recents: Recent
       blog: Blog ProduceRun
       expiring: In the final stretch
-      recommended: recommended
+      recommended: Recommended
       banner_subtitle: Music, comics , cinema, social impact , technology and more.
       box:
         by: by
@@ -40,10 +40,10 @@ en:
         near:
           title: Near Me
         recommended:
-          title: recommended
+          title: Recommended
         expiring:
           title: In the final stretch
         recents:
-          title: recent
+          title: Recent
         channels:
           title: Basic Canal
