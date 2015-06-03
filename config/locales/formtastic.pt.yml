@@ -1,62 +1,55 @@
-pt:
+---
+en:
   formtastic:
     hints:
       reward:
-        description: Descreva sua recompensa de um jeito que desperte o interesse das pessoas para apoiar o projeto. Não seja tímido!
-        maximum_contributions: Se sua recompensa é limitada, informe o máximo de pessoas.
-        minimum_value: Este é valor mínimo de apoio para escolher esta recompensa.
-        days_to_delivery: Informe em quantos dias, após o sucesso do projeto, você planeja entregar essa recompensa
+        description: Describe your reward in a way that arouses the interest of people
+          to support the project .
+        maximum_contributions: If your reward is limited , please as many people .
+        minimum_value: This is minimum support value to choose this reward .
+        days_to_delivery: Tell how many days , after the success of the campaign, you
+          plan to give this reward
       contribution:
-        credits: Você possui <strong>%{credits}</strong> em créditos e pode apoiar
-          até este valor sem precisar realizar um novo pagamento.
+        credits: You own <strong>%{credits}</strong> in credits and can support up
+          to this value without having to make a new payment .
       project:
-        about: Conte-nos um pouco sobre sua inspiração para realizar o projeto, sua
-          história e o que será entregue ao final. Seja sucinto e fuja daquelas formalidades
-          de editais. Nada de OBJETIVO, JUSTIFICATIVA, PÚBLICO-ALVO... Presenteie
-          seus leitores com algo que mexa com eles e seja muito transparente em relação
-          a expectativa sobre o projeto.
-        category: Antes de enviar seu projeto, explore e inspire-se com outros projetos
-          que passaram pelo site.
-        first_contributions: Para sua campanha ter sucesso, é fundamental trazer a
-          sua rede de contato mais próxima. Por isso, liste aqui quem você acredita
-          que serão seus primeiros 20 apoiadores
-        goal: "É importante lembrar que grande parte dos apoios virão de pessoas próximas
-          a você (1º e 2º nível de relacionamento): <a href='http://blog.catarse.me/sua-campanha-no-catarse-precisa-de-um-empurrazinho'
-          target='_blank'>Clique aqui!</a> Desse modo, ao definir o valor que pretende
-          arrecadar através do Catarse é fundamental pensar na sua capacidade de mobilizar
-          pelo menos 50% do valor dentro da sua rede de contatos."
-        headline: Resuma em 140 caracteres o seu projeto. Esta frase será o primeiro
-          contato das pessoas com o seu projeto, antes mesmo de ver o vídeo. Seja
-          criativo, transparente e direto :)
-        more_links: Quais serão os canais de mobilização utilizados? (Coloque links
-          como Facebook, Twitter, Blogs... tudo que irá te ajudar a divulgar o seu
-          projeto)
-        name: Quanto mais direto melhor. Deixe para descrever o seu projeto no Sobre
-          e no Vídeo.
-        online_days: Em média os projetos ficam no ar por 40 dias.
-        uploaded_image: Aqui você faz upload de uma imagem (.jpg) com tamanho 512x400.
-        video_url: O vídeo é a principal peça do projeto. Se ainda não tiver, não
-          precisa enviar... Mas já vá pensando em como fazer um vídeo MATADOR!
-        video_url_edit: Cole aqui o link do seu vídeo hospedado no Vimeo ou no Youtube.
+        about: Tell us a little about your inspiration to undertake the campaign ,
+          its history and what will be delivered to the end .
+        category: Before sending your design , explore and be inspired with other
+          projects that have gone through the site .
+        first_contributions: For your campaign to succeed , it is essential to bring
+          your closer contact network.
+        goal: 'It is important to remember that much of the support will come from
+          those close to you (1st and 2nd level of relationship ) : <a href=''http://blog.catarse.me/sua-campanha-no-catarse-precisa-de-um-empurrazinho''
+          target=''_blank''>Clique here </a> Thus , to set the amount you want to
+          raise through the ProduceRun is critical thinking in their ability to mobilize
+          at least'
+        headline: Summarize in 140 characters your campaign.
+        more_links: What will be the mobilization of channels used ?
+        name: The more direct the better.
+        online_days: On average the campaigns are in the air for 40 days.
+        uploaded_image: Here you upload a picture (.jpg ) with size 512x400 .
+        video_url: The video is the centerpiece of the campaign.
+        video_url_edit: Paste here the link of your video hosted on Vimeo or Youtube
+          .
     labels:
       reward:
-        description: Descrição
-        minimum_value: Valor mínimo
-        days_to_delivery: Previsão de entrega
-        maximum_contributions: Máximo de apoiadores (opcional)
+        description: description
+        minimum_value: Bid
+        days_to_delivery: Estimated delivery
+        maximum_contributions: Maximum supporters (optional )
       contribution:
-        credits: Quero usar meus créditos para este apoio.
-        anonymous: Quero que meu apoio seja anônimo.
-        value: Com quanto você quer apoiar?
-        reward: Selecione sua recompensa
+        credits: I want to use my credits for this support.
+        anonymous: I want my support is anonymous.
+        value: How much you want to support ?
+        reward: Select your reward
       project:
-        about: História do seu projeto e como o $ será utilizado *
-        expires_at: Qual o prazo para atingir o mínimo? *
-        first_contributions: Lista com os primeiros apoiadores *
-        goal: Quanto você pretende arrecadar? (apenas números)*
-        headline: Frase de efeito *
-        traffic_sources: Como você conheceu o Catarse? *
-        more_links: Lista de Links relacionados a seu projeto *
-        name: Nome do projeto *
-        video_url: Vídeo
-
+        about: History of your campaign and how the $ will be used *
+        expires_at: How long to reach the minimum ?
+        first_contributions: List of the first supporters *
+        goal: How much you want to raise ?
+        headline: Catchphrase *
+        traffic_sources: How did you meet ProduceRun ?
+        more_links: Links list related to your campaign *
+        name: Campaign Name *
+        video_url: video
