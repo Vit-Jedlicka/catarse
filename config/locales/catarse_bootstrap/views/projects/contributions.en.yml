@@ -1,4 +1,4 @@
---
+---
 en:
   projects:
     contributions:
@@ -112,5 +112,5 @@ en:
         tweet: Tweet
         follow: Follow
         profile_link: profile link
-        follow_category: Likes the %{category} category? You can get first hand and directly to your email when new projects come online!
+        follow_category: 'Likes the %{category} category? You can get first hand and directly to your email when new projects come online!'
 
