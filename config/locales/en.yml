@@ -590,7 +590,7 @@ en:
       subtitle: "The time to make it happen is now! We really want to know what you're up to..."
       title: "Submit your project"
     twitter:
-      take_a_look: "Check out the project %{name} on @catarse"
+      take_a_look: "Check out the project %{name} on @liberland_org"
     video_embed:
       a_project_by_html: "A project by %{link} on"
   projects_mailer:

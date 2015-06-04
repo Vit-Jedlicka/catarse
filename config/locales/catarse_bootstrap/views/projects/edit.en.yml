@@ -23,7 +23,7 @@ en:
           other: "%{count} support in term of confirmation."
         edit_reward: edit price option
         new_reward: Sign price option
-        reward_deliver_time: "<b>Estimativa delivery: </b> %{estimate}"
+        reward_deliver_time: "<b>Estimated delivery: </b> %{estimate}"
         reward_title: For %{minimum} or more
     dashboard_user_settings:
       title: Registration and banking Payout Details
@@ -43,7 +43,7 @@ en:
         contributions: support
         left: remaining
       waiting_funds:
-        title: "%{name} , we are processing the final payments ."
+        title: "%{name}, we are processing the final payments."
         subtitle_html: His campaign was completed in %{expires} and is awaiting confirmation
           slips and payments.
         header: From here your campaign can hit the target or not.

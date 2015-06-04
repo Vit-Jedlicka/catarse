@@ -1,10 +1,10 @@
 ---
-en:
+pt:
   rewards:
     form:
       edit: edit reward
       reward: reward
-      info_box: You can limit the amount available for a reward .
+      info_box: You can limit the amount available for a reward.
       minimum_value: 'Bid :'
       deliver_at: 'Estimated delivery :'
       description: 'description :'
