@@ -37,7 +37,7 @@ GIT
 
 GIT
   remote: git://github.com/liberland/catarse_paypal_express
-  revision: c9afbcc46f891b2c5e00956f7676284a17ee6b9a
+  revision: 9c312850ff0e607e98bcd52fbfdf7305720bf9bf
   specs:
     catarse_paypal_express (3.0.2)
       activemerchant (>= 1.34.0)
