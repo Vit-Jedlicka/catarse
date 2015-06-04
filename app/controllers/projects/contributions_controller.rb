@@ -77,6 +77,6 @@ class Projects::ContributionsController < ApplicationController
   end
 
   def engine
-    PaymentEngines.find_engine('Pagarme')
+    PaymentEngines.find_engine('Paypal')
   end
 end
