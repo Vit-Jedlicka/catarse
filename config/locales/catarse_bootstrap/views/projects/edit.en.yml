@@ -94,13 +94,13 @@ en:
     edit:
       leave_link_html: ''
       start_tab: Begin
-      basics_tab: basic
-      project_tab: campaign
-      posts_tab: news
-      rewards_tab: price options
-      about_you_tab: about you
-      reports_tab: reports
-      account_tab: account
+      basics_tab: Basic
+      project_tab: Campaign
+      posts_tab: News
+      rewards_tab: Price options
+      about_you_tab: About you
+      reports_tab: Reports
+      account_tab: Account
       preview_tab: Preview
       send: send
       publish: publish

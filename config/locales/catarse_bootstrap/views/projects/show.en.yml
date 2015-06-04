@@ -48,14 +48,14 @@ en:
     show:
       menu:
         panel_html: ''
-        about: about
+        about: About
         add_reward: Add reward
-        comments: reviews
-        contributions: supports
-        metrics: metrics
-        edit: edition
-        reports: reports
-        posts: news
+        comments: Reviews
+        contributions: Supports
+        metrics: Metrics
+        edit: Edition
+        reports: Reports
+        posts: News
     project_main:
       twitter_profile: Profile no Twitter
       facebook_profile: Profile no Facebook

@@ -239,6 +239,8 @@ en:
       posts: Deleted successfully Novelty
     video_regex_validation: Youtube or Vimeo only URLs are accepted
   contribution:
+    payment_details:
+      pay_pal: PayPal
     project_should_be_online: You can not support a campaign that is not in the air
     reward_must_be_from_project: must be of the same design
     should_not_contribute_if_maximum_contributions_been_reached: has reached its maximum
