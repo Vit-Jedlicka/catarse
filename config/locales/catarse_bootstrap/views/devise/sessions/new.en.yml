@@ -15,4 +15,5 @@ en:
             remember_me: 'Remember me'
           inputs:
             submit: 'Log me in'
+            password: 'Password'
             facebook: 'Log in with Facebook'
