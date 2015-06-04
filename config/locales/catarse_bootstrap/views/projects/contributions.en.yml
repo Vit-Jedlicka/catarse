@@ -1,4 +1,4 @@
----
+--
 en:
   projects:
     contributions:
@@ -106,3 +106,11 @@ en:
         text_title_html: You are now part of the group that does everything for the
           project %{link} happen.
         title: thank you very much
+        thank_you: Thank you!
+        share_back: Share your support and increase the chances of the project hit the target!
+        share: Share
+        tweet: Tweet
+        follow: Follow
+        profile_link: profile link
+        follow_category: Likes the %{category} category? You can get first hand and directly to your email when new projects come online!
+

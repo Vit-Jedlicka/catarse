@@ -17,7 +17,7 @@ nav.w-dropdown-list.dropdown-list.user-menu
           = link_to 'Notifications', edit_user_path(current_user, anchor: :notifications), class: 'alt-link fontsize-smaller'
         li.lineheight-looser
           = link_to 'Access data', edit_user_path(current_user, anchor: :settings), class: 'alt-link fontsize-smaller'
-        li.lineheight-looser
+        /li.lineheight-looser
           = link_to 'Bank and cards', edit_user_path(current_user, anchor: :billing), class: 'alt-link fontsize-smaller'
     .w-col.w-col-4.w-hidden-small.w-hidden-tiny
       .fontweight-semibold.fontsize-smaller.u-marginbottom-10 Supported campaigns
