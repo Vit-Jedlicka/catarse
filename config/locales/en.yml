@@ -14,10 +14,10 @@ en:
       confirmed_contributions: 'Confirmed contributions'
       created_projects: 'Created projects'
   site:
-    description:  O Catarse é a primeira e maior plataforma de crowdfunding, ou financiamento coletivo, do Brasil. Venha tirar projetos do papel!
-    keywords: crowdfunding, financiamento coletivo, projeto, catarse, comunidade, open source
+    description: Live and Let Live! Creating a society where righteous people can prosper
+    keywords: crowdfunding, finances, projects, liberland, community, open source, country
     meta_title: "%{title} · %{company_name}"
-    title: Crowdfunding e financiamento coletivo no Brasil é no Catarse
+    title: Liberland Crowdfunding
   login:
     forgot_password:
       welcome: 'Reset password'
@@ -38,7 +38,7 @@ en:
     value: 'Contribution value'
     service_fee: 'Catarse fee'
     user_name: 'Contribution name'
-    user_email: 'Catarse user profile e-mail'
+    user_email: 'Liberland Crowdfunding user profile e-mail'
     payer_email: 'Payment gateway user e-mail'
     payment_method: 'Payment method'
     address_street: 'Street'
@@ -292,7 +292,7 @@ en:
         comment: "Leave your comment about this project"
       project:
         more_links: "List project related links *"
-        traffic_sources: "How did you get to know Catarse?"
+        traffic_sources: "How did you get to know Liberland Crowdfunding?"
         headline: "Punch Line"
         category: 'Category'
         first_contributions: "List your first contributions *"
@@ -351,18 +351,18 @@ en:
   project:
     start:
       email_subject: "Your project has been received by Liberland Crowdfunding's team"
-      email_text: "Thanks for trusting your project to Liberland Crowdfunding :)<br><br>We know that you expect a quick reply but, to be quite frank, we take up to 4 days to respond, ok? That is because we have a small team working on several projects. Note that the reply can come sooner, so keep attention to your inbox.<br><br>Meanwhile it is worth to get to know the projects that are online (<a href='%{explore_link}' style='color: #E75297 !important;'>%{explore_link}</a>) and - if you like any of them- contribute it! This is the way to show support for the crowdfunding culture in Brazil and to feed the ecosystem that keeps growing around Catarse.<br><br>Besides that, you will get some inspiration for your own project...<br><br>Stay tuned for updates in <a href='%{facebook}' style='color: #E75297 !important;'>Facebook</a> and get some deeper knowledge about Catarse reading the posts in our <a href='%{blog}' style='color: #E75297 !important;'>blog</a>.<br><br>If you have any doubt, send an email to: %{email}"
-      notification_text: "Your project has been received by Catarse's team"
+      email_text: "Thanks for trusting your project to Liberland Crowdfunding :)<br><br>We know that you expect a quick reply but, to be quite frank, we take up to 4 days to respond, ok? That is because we have a small team working on several projects. Note that the reply can come sooner, so keep attention to your inbox.<br><br>Meanwhile it is worth to get to know the projects that are online (<a href='%{explore_link}' style='color: #E75297 !important;'>%{explore_link}</a>) and - if you like any of them- contribute it! This is the way to show support for the crowdfunding culture in Brazil and to feed the ecosystem that keeps growing around Liberland Crowdfunding.<br><br>Besides that, you will get some inspiration for your own project...<br><br>Stay tuned for updates in <a href='%{facebook}' style='color: #E75297 !important;'>Facebook</a> and get some deeper knowledge about Liberland Crowdfunding reading the posts in our <a href='%{blog}' style='color: #E75297 !important;'>blog</a>.<br><br>If you have any doubt, send an email to: %{email}"
+      notification_text: "Your project has been received by Liberland Crowdfundin's team"
     finish:
       successful:
-        email_subject: "Hooray! The project %{project_name} was successful on Catarse!"
-        email_text: "The project %{project_link}, that you have contributed, was successfully funded! Let's celebrate o/<br><br>The project has, including you, %{project_total_contributions} wonderful contributions, raised %{project_pledged} and reached %{project_process}% of its goal =D<br><br>Something that is important to know: Catarse's team takes 3 days to send to the project creator the list with all information of the contributions. So, the project creator will only be in touch with you to thank you and talk about the rewards delivery in a few days, ok?<br><br>So why don't you, in this meantime, share with all your friends this success?<br><br><div style='text-align:center;'>%{facebook_button}%{twitter_button}</div><br><br>If you want to get in touch with %{project_owner_name}, send an email to %{project_owner_email}.<br><br>If you have any doubt about Catarse, access our FAQ: <a href='http://www.catarse.me/faq' style='color: #008800';>www.catarse.me/faq</a> or send an email to <a href='mail_to:contato@catarse.me' style='color: #008800;'>contato@catarse.me</a><br>"
-        facebook_text: "Hooray! The project '%{name}', which I contributed, was successful on Catarse!"
+        email_subject: "Hooray! The project %{project_name} was successful on Liberland Crowdfundin!"
+        email_text: "The project %{project_link}, that you have contributed, was successfully funded! Let's celebrate o/<br><br>The project has, including you, %{project_total_contributions} wonderful contributions, raised %{project_pledged} and reached %{project_process}% of its goal =D<br><br>Something that is important to know: Liberland Crowdfundin's team takes 3 days to send to the project creator the list with all information of the contributions. So, the project creator will only be in touch with you to thank you and talk about the rewards delivery in a few days, ok?<br><br>So why don't you, in this meantime, share with all your friends this success?<br><br><div style='text-align:center;'>%{facebook_button}%{twitter_button}</div><br><br>If you want to get in touch with %{project_owner_name}, send an email to %{project_owner_email}.<br><br>If you have any doubt about Liberland Crowdfundin, access our FAQ: <a href='http://liberland.zendesk.com' style='color: #008800';>liberland.zendesk.com</a> or send an email to <a href='mail_to:info@liberland.org' style='color: #008800;'>info@liberland.org</a><br>"
+        facebook_text: "Hooray! The project '%{name}', which I contributed, was successful on Liberland Crowdfunding!"
         notification_text: "Hooray! The project %{link} that you contributed was successful! Spread the word!"
         reward_notification_text: "Soon, %{link} will contact you to deliver your reward. Enjoy!"
-        twitter_text: "Hooray! The project '%{name}', which I contributed, was successful on @catarse! %{short_url}"
+        twitter_text: "Hooray! The project '%{name}', which I contributed, was successful on @liberland_org! %{short_url}"
       unsuccessful:
-        email_subject: "The project %{project_name} wasn't funded on Catarse."
+        email_subject: "The project %{project_name} wasn't funded on Liberland Crowdfunding."
         email_text: 'Unfortunately the project %{project_link}, that you have contributed, did not reached its goal and was not funded at Catarse.<br><br>So, you have received <strong>%{value}</strong> in credits to contribute other projects. You can meet others %{project_category} projects in %{explore_category_link}.<br><br>You also can ask for your refund by clicking in %{credits_link}. Remember that you signed up in Catarse using %{user_provider}. If you have some difficulty in this process, do not be shame to send an email to financeiro@catarse.me with the subject "Refund - login issue".<br><br>If, for any reason, you want to contact %{project_owner_name}, send an email to %{project_owner_email}.<br><br>If you have any other doubt, access our FAQ or send an email to <a href="mail_to:contato@catarse.me" style="color: #008800;">contato@catarse.me</a>.<br>'
         notification_text: "You received %{value} in credits to contribute other projects. If you prefer, you can request a refund %{link}."
         unsuccessful_text: "The project %{link} that you contributed wasn't funded. Maybe next time!"

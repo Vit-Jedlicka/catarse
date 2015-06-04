@@ -14,7 +14,7 @@ en:
       submit: save
       index:
         select_reward: Select this price option
-        display_remaining: "%{remaining} %{maximum} of available"
+        display_remaining: "%{remaining} available of %{maximum} "
         dont_want: I do not want price option
         limited: limited
         sold_out: exhausted

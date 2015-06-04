@@ -13,7 +13,7 @@ en:
       submit: save
     index:
       select_reward: Select this reward
-      display_remaining: "%{remaining} of available %{maximum}"
+      display_remaining: "%{remaining} available of %{maximum}"
       dont_want: Pay on delivery
       limited: limited
       sold_out: exhausted

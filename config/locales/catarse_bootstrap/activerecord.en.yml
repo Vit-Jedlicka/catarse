@@ -238,6 +238,13 @@ en:
     delete:
       posts: Deleted successfully Novelty
     video_regex_validation: Youtube or Vimeo only URLs are accepted
+  payment:
+    state:
+      pending: "Payment pending"
+      paid: "Confirmed %{date}"
+      refunded: "Refunded %{date}"
+      pending_refund: "Refund at %{date}"
+      refused: "Refused %{date}"
   contribution:
     payment_details:
       pay_pal: PayPal
