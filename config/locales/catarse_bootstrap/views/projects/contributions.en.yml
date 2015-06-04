@@ -107,6 +107,7 @@ en:
           project %{link} happen.
         title: thank you very much
         thank_you: Thank you!
+        thank_you_text_html: '&nbsp;'
         share_back: Share your support and increase the chances of the project hit the target!
         share: Share
         tweet: Tweet
