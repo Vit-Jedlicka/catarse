@@ -9,6 +9,7 @@ en:
         links:
           register: "Sign up"
           forgot_password: "I forgot my password"
+          password: Password
         form:
           labels:
             remember_me: 'Remember me'
