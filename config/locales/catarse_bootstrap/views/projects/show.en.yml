@@ -20,6 +20,7 @@ en:
       a_project_by_html: A %{link} campaign in
     posts:
       project_post:
+        exclusive: Visible only to supporters
         unavailable: This novelty is only available to supporters.
         contribute: Support
         unavailable_contribute: this campaign to view it .
