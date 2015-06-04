@@ -71,9 +71,9 @@ en:
       subtitle: "total of %{total}"
   project_by: "project by"
   tell_about_this_contribution: "Tell the world about your support!"
-  share_my_contributions: "See the projects that I support in Catarse!"
+  share_my_contributions: "See the projects that I support in Liberland Crowdfunding!"
   tell_about_this_project: "Tell the world about your project!"
-  share_my_projects: "See my projects in Catarse!"
+  share_my_projects: "See my projects in Liberland Crowdfunding!"
   count_contributed_projects: "contributed %{total} projects"
   rewards:
     index:
@@ -161,7 +161,7 @@ en:
         user_id: "User ID"
         video_url: "Video URL"
         permalink: 'Project URL'
-        traffic_sources: "How did you hear about Catarse?"
+        traffic_sources: "How did you hear about Liberland Crowdfunding?"
         more_links: 'Where can we find more about you and your project?'
       reward:
         description: Description
@@ -189,7 +189,7 @@ en:
         password: Password
         password_confirmation: "Password Confirmation"
         phone_number: "Mobile phone number"
-        newsletter: 'I want receive news about Catarse'
+        newsletter: 'I want receive news about Liberland Crowdfunding'
     models:
       contribution: Contribution
       category: Category
@@ -310,8 +310,8 @@ en:
   found_plural: Found
   found_singular: Found
   here: here
-  i_contributed: "I contributed the project %{name} on @catarse"
-  i_just_contributed: "I just contributed the project %{name} on @catarse"
+  i_contributed: "I contributed the project %{name} on @liberland_org"
+  i_just_contributed: "I just contributed the project %{name} on @liberland_org"
   layouts:
     login:
       login_with_facebook: "sign in with your facebook account"
@@ -350,8 +350,8 @@ en:
       site_title: "Recover password"
   project:
     start:
-      email_subject: "Your project has been received by Catarse's team"
-      email_text: "Thanks for trusting your project to Catarse :)<br><br>We know that you expect a quick reply but, to be quite frank, we take up to 4 days to respond, ok? That is because we have a small team working on several projects. Note that the reply can come sooner, so keep attention to your inbox.<br><br>Meanwhile it is worth to get to know the projects that are online (<a href='%{explore_link}' style='color: #E75297 !important;'>%{explore_link}</a>) and - if you like any of them- contribute it! This is the way to show support for the crowdfunding culture in Brazil and to feed the ecosystem that keeps growing around Catarse.<br><br>Besides that, you will get some inspiration for your own project...<br><br>Stay tuned for updates in <a href='%{facebook}' style='color: #E75297 !important;'>Facebook</a> and get some deeper knowledge about Catarse reading the posts in our <a href='%{blog}' style='color: #E75297 !important;'>blog</a>.<br><br>If you have any doubt, send an email to: %{email}"
+      email_subject: "Your project has been received by Liberland Crowdfunding's team"
+      email_text: "Thanks for trusting your project to Liberland Crowdfunding :)<br><br>We know that you expect a quick reply but, to be quite frank, we take up to 4 days to respond, ok? That is because we have a small team working on several projects. Note that the reply can come sooner, so keep attention to your inbox.<br><br>Meanwhile it is worth to get to know the projects that are online (<a href='%{explore_link}' style='color: #E75297 !important;'>%{explore_link}</a>) and - if you like any of them- contribute it! This is the way to show support for the crowdfunding culture in Brazil and to feed the ecosystem that keeps growing around Catarse.<br><br>Besides that, you will get some inspiration for your own project...<br><br>Stay tuned for updates in <a href='%{facebook}' style='color: #E75297 !important;'>Facebook</a> and get some deeper knowledge about Catarse reading the posts in our <a href='%{blog}' style='color: #E75297 !important;'>blog</a>.<br><br>If you have any doubt, send an email to: %{email}"
       notification_text: "Your project has been received by Catarse's team"
     finish:
       successful:
